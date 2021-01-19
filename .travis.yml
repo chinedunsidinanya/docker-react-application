@@ -11,4 +11,4 @@ before_install:
 
 
 script:
-  - docker run chinedunnanna/react_application npm run test -- --coverage
+  - docker run -p 3000:3000 chinedunnanna/react_application 

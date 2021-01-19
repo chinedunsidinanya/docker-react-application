@@ -11,4 +11,4 @@ before_install:
 
 
 script:
-  - docker run -e CI=true chinedunsidinanya/react_application npm run start
+  - docker run -e CI=true chinedunsidinanya/react_application npm run test

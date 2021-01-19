@@ -7,8 +7,8 @@ services:
 
 
 before_install:
-  - docker build -t chinedunnanna/react_application -f Dockerfile.dev .
+  - docker build -t chinedunsidinanya/react_application -f Dockerfile.dev .
 
 
 script:
-  - docker run chinedunnanna/react_application
+  - docker run chinedunsidinanya/react_application

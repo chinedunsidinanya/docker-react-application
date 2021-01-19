@@ -11,4 +11,4 @@ before_install:
 
 
 script:
-  - docker run chinedunsidinanya/react_application
+  - docker run chinedunsidinanya/react_application npm run start
